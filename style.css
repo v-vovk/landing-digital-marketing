@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik');
+
+.header {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding        : 30px 387px 30px 387px;
+    flex-wrap      : wrap;
+    background     : #ffffff;
+}
+
+.logo {
+    height: 40px;
+}
+
+ ul li {
+    display     : inline-block;
+    font-family : 'Montserrat', sans-serif;
+    font-size   : 16px;
+    font-weight : 600;
+    padding-left: 50px;
+} 
