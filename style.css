@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Rubik');
 
+a {
+    text-decoration: none;
+}
+
 .header {
     display        : flex;
     justify-content: space-between;
@@ -20,3 +24,7 @@
     font-weight : 600;
     padding-left: 50px;
 } 
+
+ul li a {
+    color: #2E343E;
+}
