@@ -8,9 +8,10 @@ a {
     display        : flex;
     justify-content: space-between;
     align-items    : center;
-    padding        : 30px 387px 30px 387px;
     flex-wrap      : wrap;
     background     : #ffffff;
+    padding        : 0px 387px 0px 387px;
+
 }
 
 .logo {
