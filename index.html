@@ -6,29 +6,32 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="section">
-        <div class="header">
-            <img src="/image/logo.png" alt="logo" class="logo">
-            <div class="nav">
-                <ul>
-                    <li><a href="#">Преимущества</a></li>
-                    <li><a href="#">Семинар</a></li>
-                    <li><a href="#">Содержание</a></li>
-                    <li><a href="#">Спикеры</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                </ul>
-            </div>
+    <header>
+        <img src="/image/logo.png" alt="logo" class="logo">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Преимущества</a></li>
+                <li><a href="#">Семинар</a></li>
+                <li><a href="#">Содержание</a></li>
+                <li><a href="#">Спикеры</a></li>
+                <li><a href="#">Отзывы</a></li>
+            </ul>
         </div>
+    </header>
+    
+    <div class="section">
+        <video loop muted autoplay poster="video/plane.png" class="fullscreen-bg__video">
+            <source src="video/plane.mp4" type="video/mp4">
+            <source src="video/plane.webm" type="video/webm">
+        </video>
 
-        <div class="fullscreen-bg">
-            <div class="overlay">
-                <h1>Как сделать бренд уникальным</h1>
-                <p>Отстройка от конкурентов в digital эпоху</p>
+        <div class="overlay">
+            <h1>Как сделать бренд уникальным</h1>
+            <p>Отстройка от конкурентов в digital эпоху</p>
+            <div class="button-container">
+                <a href="" class="button">УЧАВСТВОВАТЬ</a>
+                <a href="" class="button">СМОТРЕТЬ ВИДЕО</a>
             </div>
-            <video loop muted autoplay poster="video/plane.png" class="fullscreen-bg__video">
-                <source src="video/plane.mp4" type="video/mp4">
-                <source src="video/plane.webm" type="video/webm">
-            </video>
         </div>
     </div>
 </body>
