@@ -12,11 +12,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin        : 0;
-	padding       : 0;
-	border        : 0;
-	font-size     : 100%;
-	font          : inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -33,14 +33,13 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote: before, blockquote: after,
-q         : before, q         : after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
 table {
 	border-collapse: collapse;
-	border-spacing : 0;
+	border-spacing: 0;
 }
 
 
@@ -53,13 +52,13 @@ a {
 
 /* header style */
 header {
-    display        : flex;
+    display: flex;
     justify-content: space-between;
-    align-items    : center;
-    padding        : 0px 387px 0px 387px;
-    flex-wrap      : wrap;
-    background     : #ffffff;
-    height         : 100px;
+    align-items: center;
+    padding: 0px 387px 0px 387px;
+    flex-wrap: wrap;
+    background: #ffffff;
+    height: 100px;
 }
 
 .logo {
@@ -67,10 +66,10 @@ header {
 }
 
  ul li {
-    display     : inline-block;
-    font-family : 'Montserrat', sans-serif;
-    font-size   : 16px;
-    font-weight : 600;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     padding-left: 50px;
 } 
 
@@ -79,40 +78,38 @@ ul li a {
 }
 
 
-
-
 .fullscreen-bg__video {
     position: absolute;
-    top     : 0;
-    left    : 0;
-    width   : 100%;
-    z-index : -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -100;
 }
  
 .overlay {
-    display       : flex;
+    display: flex;
     flex-direction: column;
-    width         : 100%;
-    max-width     : 1000px;
-    background    : rgba(0,0,0,0.65);
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(0,0,0,0.65);
     
 }
  
 .overlay h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size  : 48px;
+    font-size: 48px;
     font-weight: 900;
-    text-align : center;
-    color      : #fff;
-    margin-top : 270px;
+    text-align: center;
+    color: #fff;
+    margin-top: 270px;
 }
 
 .overlay p {
     font-family: 'Montserrat', sans-serif;
-    font-size  : 25px;
+    font-size: 25px;
     font-weight: 900;
-    text-align : center;
-    color      : #fff;
+    text-align: center;
+    color: #fff;
     padding-top: 30px;
     line-height: 30px;
 }
