@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&subset=cyrillic,cyrillic-ext');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -62,6 +63,7 @@ video {
 }
   
 .overlay-desc p {
+    font-family: 'Montserrat', sans-serif;
     font-size  : 25px;
     font-weight: 800;
     text-align : center;
@@ -106,9 +108,63 @@ main {
 }
   
 p {
-    font-size  : 1.0rem;
-    line-height: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    color: #606060;
+    font-size  : 18px;
+    line-height: 130%;
+    font-weight: 400;
 }
+
+h2 {
+    color      : #2e343e;
+    font-size  : 48px;;
+    text-align : center;
+    font-weight: 800;
+}
+
+h3 {
+    color      : #2e343e;
+    font-size  : 36px;;
+    font-weight: 800;
+    line-height: 100%;
+}
+
+/* section-2 start */
+.your-business {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction : column;
+}
+
+.item-business {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.item-el {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.text {
+    width: 462px;
+}
+
+.text p {
+    padding-top: 20px;
+}
+
+.item-el img {
+    height: 462px;
+}
+/* section-2 end */
 
 /* tablet style */
 @media (max-width: 767px) {
