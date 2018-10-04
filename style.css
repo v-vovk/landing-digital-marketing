@@ -4,11 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
-/* header style */
+/* header start */
 header {
     display        : flex;
     justify-content: space-between;
@@ -17,15 +13,15 @@ header {
     flex-wrap      : wrap;
     background     : #ffffff;
     height         : 100px;
-    width: 61%;
-    margin: 0 auto;
+    width          : 61%;
+    margin         : 0 auto;
 }
 
 .logo {
     height: 40px;
 }
 
- ul li {
+ul li {
     display     : inline-block;
     font-size   : 16px;
     font-weight : 600;
@@ -35,38 +31,39 @@ header {
 ul li a {
     color: #2E343E;
 }
+/* header end */
 
-/* section-1 video */
+/* section-1 video start */
 .video-container {
     position: relative;
 }
 
 video {
-    height: auto;
+    height        : auto;
     vertical-align: middle;
-    width: 100%;
+    width         : 100%;
 }
 
 .overlay-desc {
-    background: rgba(0,0,0,0.65);
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    display: flex;
-    align-items: center;
+    background     : rgba(0,0,0,0.65);
+    position       : absolute;
+    top            : 0; right: 0; bottom: 0; left: 0;
+    display        : flex;
+    align-items    : center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction : column;
 }
 
 .overlay-desc h1 {
-    color: white;
-    font-size: 48px;;
-    text-align: center;
-    font-weight: 900;
+    color      : white;
+    font-size  : 48px;;
+    text-align : center;
+    font-weight: 800;
 }
   
 .overlay-desc p {
     font-size  : 25px;
-    font-weight: 900;
+    font-weight: 800;
     text-align : center;
     color      : #fff;
     padding-top: 30px;
@@ -88,28 +85,28 @@ video {
 
 button {
     border       : 2px solid #2693EE;
-    border-radius: 129px;
+    border-radius: 50px;
     padding      : 18px 45px;
 }
 
 .button-solid {
-    background   : #2693EE;
-    margin-right : 15px;
+    background  : #2693EE;
+    margin-right: 15px;
 }
 
 .button-border {
-    background   : none;
-    margin-left  : 15px;
+    background : none;
+    margin-left: 15px;
 }
+/* section-1 video end */
 
 main {
     margin: 0 auto;
-    width: 61%;
+    width : 61%;
 }
   
 p {
-    color: #000000;
-    font-size: 1.1rem;
+    font-size  : 1.0rem;
     line-height: 1.7rem;
 }
 
